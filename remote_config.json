@@ -1,0 +1,87 @@
+{
+  "app_name": "FıratTech Remote Control Center",
+  "settings": {
+    "accent": "#3b82f6",
+    "mode": "dark"
+  },
+  "tvs": [
+    {
+      "id": "salon-tv",
+      "name": "Salon TV",
+      "ip": "192.168.1.102",
+      "smartcenter_port": 56789,
+      "dlna_port": 2870
+    }
+  ],
+  "links": [
+    {
+      "id": "google-link",
+      "name": "Google",
+      "type": "web",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": "bunny-link",
+      "name": "Tavşan Video",
+      "type": "web",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    }
+  ],
+  "apps": [
+    {
+      "id": "youtube-web",
+      "name": "YouTube Web",
+      "type": "web",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "id": "weather-web",
+      "name": "Hava Durumu",
+      "type": "web",
+      "url": "https://www.msn.com/weather"
+    }
+  ],
+  "channels": [
+    {
+      "id": "ch2-atv",
+      "channel_no": 2,
+      "name": "ATV HD",
+      "type": "tuner",
+      "rsn": 2
+    },
+    {
+      "id": "ch4-star",
+      "channel_no": 4,
+      "name": "STAR TV HD",
+      "type": "tuner",
+      "rsn": 4
+    },
+    {
+      "id": "ch999-bunny",
+      "channel_no": 999,
+      "name": "Tavşan Test",
+      "type": "web",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "open_with_player": true
+    },
+    {
+      "id": "ch1000-google",
+      "channel_no": 1000,
+      "name": "Google",
+      "type": "web",
+      "url": "https://www.google.com",
+      "open_with_player": false
+    }
+  ],
+  "iptv_sources": [
+    {
+      "id": "xtream-demo",
+      "name": "Örnek Xtream Kaynağı",
+      "type": "xtream",
+      "server": "http://alanadresi.com:8080",
+      "api": "http://alanadresi.com:8080/player_api.php",
+      "username": "kullanici",
+      "password": "sifre"
+    }
+  ]
+}
